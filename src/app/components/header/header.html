@@ -1,0 +1,11 @@
+<header class="app-header">
+  <h1>Délices de Douala</h1>
+  <p class="counter">
+    ★ {{ ratedCount() }} / {{ totalCount() }} restaurants notés
+    
+    <!-- on affiche la moyenne des notes que si la moyenne est differente du null -->
+    @if (averageRating() !== null) { 
+      <span class="average">  ★ {{ averageRating() }}/5 de moyenne</span>
+    }
+  </p>
+</header>

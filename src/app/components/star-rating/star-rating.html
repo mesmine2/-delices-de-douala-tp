@@ -1,0 +1,19 @@
+ <!-- mouseleave est une methode predefinie  -->
+<div class="star-rating" (mouseleave)="onLeaveGroup()"> 
+  @for (star of stars; track star) {
+    <span
+      class="star"
+      [class.doree]="isFilled(star)"
+      (mouseenter)="onHover(star)" /* (mouseenter) methode predefinie qui reagit au survol de la souris */
+      (click)="setRating(star)"
+    >★</span>
+  }
+</div>
+
+<p class="rating-label">
+  @if (currentRating() > 0) {
+    ({{ currentRating() }}/5)
+  } @else {
+    Cliquez !
+  }
+</p>

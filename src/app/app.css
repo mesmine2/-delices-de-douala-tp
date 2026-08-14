@@ -1,0 +1,41 @@
+app-header{
+    width:100%;
+}
+app-restaurant-list{
+    width:100%;
+}
+:host {
+  display: block;
+  min-height: 100vh;
+  background: #faf6ec;
+  font-family: 'Segoe UI', Roboto, system-ui, sans-serif;
+}
+
+.toolbar {
+  display: flex;
+  gap: 0.75rem;
+  padding: 1rem 1.5rem 0;
+  flex-wrap: wrap;
+}
+
+.toggle-btn {
+  border: 1.5px solid #d6c9a3;
+  background: #fffdf8;
+  color: #5a4a2a;
+  border-radius: 999px;
+  padding: 0.4rem 1rem;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.toggle-btn:hover {
+  border-color: #f5b301;
+}
+
+.toggle-btn.active {
+  background: #f5b301;
+  border-color: #f5b301;
+  color: #1f3d2b;
+  font-weight: 600;
+}

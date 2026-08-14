@@ -1,0 +1,12 @@
+<article class="restaurant-card">
+  <h2>{{ restaurant().name }}</h2>
+  <p class="district">{{ restaurant().district }}</p>
+  <p class="specialty">Spécialité : {{ restaurant().specialty }}</p>
+
+  <app-star-rating 
+    [currentRating]="restaurant().currentRating"
+    (ratingChanged)="setRating($event)"
+  >
+  </app-star-rating>
+
+</article>

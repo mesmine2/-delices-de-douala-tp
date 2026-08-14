@@ -1,0 +1,29 @@
+.app-header {
+  background: linear-gradient(135deg, #1f3d2b, #2d5a3d);
+  color: #fdf6e3;
+  padding: 1.25rem 2rem;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+.counter {
+  margin: 0;
+  font-size: 1rem;
+  color: #f5b301;
+  font-weight: 600;
+}
+
+.average {
+  color: #fdf6e3;
+  font-weight: 400;
+  opacity: 0.85;
+  margin-left: 2.5rem;
+}

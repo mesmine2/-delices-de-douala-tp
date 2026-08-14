@@ -1,0 +1,13 @@
+<!-- restaurant est tableau sous forme de signal, donc a une taille -->
+@if (restaurant().length === 0) { 
+  <p class="empty-state">Aucun restaurant ne correspond à ce filtre.</p>
+} @else {
+  <div class="restaurant-grid">
+    @for (restaurant of restaurant(); track restaurant.id) {
+      <app-restaurant-card
+        [restaurant]="restaurant"
+        (restaurantRated)="setRated($event)"
+      ></app-restaurant-card>
+    }
+  </div>
+}

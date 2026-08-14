@@ -1,0 +1,33 @@
+.restaurant-card {
+  background: #fffdf8;
+  border: 1px solid #eee0c8;
+  border-radius: 14px;
+  padding: 1.25rem 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.restaurant-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.09);
+}
+
+.restaurant-card h2 {
+  margin: 0 0 0.25rem;
+  font-size: 1.15rem;
+  color: #1f3d2b;
+}
+
+.district {
+  margin: 0 0 0.5rem;
+  font-size: 0.85rem;
+  color: #b3491e;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.specialty {
+  margin: 0 0 0.75rem;
+  font-size: 0.95rem;
+  color: #444;
+}
