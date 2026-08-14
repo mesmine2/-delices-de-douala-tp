@@ -1,59 +1,33 @@
-# TpDelices
+# Les-Delices-De-Douala
+>Un client tient un guide culinaire à Douala réferencant les meilleurs restaurant de la ville
+>Projet réalisé dans le cadre d'Angular Talent Lab 2026.
+## Captures d'écran
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.0.5.
+### Desktop
+![Desktop screenshot](./screenshots/desktop.jpeg)
 
-## Development server
+### Mobile
+![Mobile screenshot](./screenshots/mobile.jpeg)
+## Technologies utilisées
+- Angular 22.0.1
+- TypeScript 5.9+
+- npm 11.17.0
+## Fonctionnalités
+- ✅ Layout responsive (Desktop / Tablette / Mobile)
+- ✅ Liste des restaurants de la ville avec les plats de spécialités
+- ✅ système de notation de chaque restaurant grace au nombre d'étoile
+- ✅ Affichage du nombre de restaurant notés
+- ✅ moyenne de note obtenus par ces restaurant
+## Lancer le projet en local
+\`\`\`bash
+git clone https://github.com/mesmine2/-delices-de-douala-tp.git
+cd -delices-de-douala-tp
+npm install
+ng serve --port 4200 --open
+\`\`\`
+## Déploiement
 
-To start a local development server, run:
+Le projet est déployé sur Vercel : [https://delices-de-douala-tp-zeta.vercel.app/]
 
-```bash
-ng serve
-```
-
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Auteur
+[PANKUI KAMTCHA MESMINE CHANELLE] — Apprenant Angular Talent Lab 2026 — Cohorte Douala
